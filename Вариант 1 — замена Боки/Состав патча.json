@@ -1,0 +1,94 @@
+{
+  "корень_архива": "models.pck.files",
+  "файлы": [
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\休闲.stck",
+      "sha256": "2fd2c7334396bf49b4f0437f91ecf09753528ee9a642cb99fd5c9330a8de10e3"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\休闲1.stck",
+      "sha256": "2fd2c7334396bf49b4f0437f91ecf09753528ee9a642cb99fd5c9330a8de10e3"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\受伤1.stck",
+      "sha256": "e23ec9719a09f45f33e9cc5cf760a573d208843ae7ed89c23a6de52b5ebc4a28"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\受伤2.stck",
+      "sha256": "fcc0489887846a7c50f1e0dad04558a6fd579bd5a29c7fb99aa43e7aa5ecab50"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\奔跑.stck",
+      "sha256": "6bc8f20dbad395548ca233b8ccfbd92c0a3d6853b7f1b06c89228b6d510685a5"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\战斗站立.stck",
+      "sha256": "b1c8a2696c04698d8c4810676605cfaeee52cb45810b8c11dcf5dfb4f9f350c5"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\技能攻击1.stck",
+      "sha256": "8b51dcbd4c04a7ca0166144911edecb546924b7d889cf3660da622c23f1f3b6c"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\技能攻击2.stck",
+      "sha256": "5497a58c1cea0f881b3ecfae9e98bebd5c63d48286c3fd08be9ea73e6fc5ecfe"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\技能攻击3.stck",
+      "sha256": "7f54cacb981f13edd351a3c9be793e6f15dfcf390dee6e95dd11d7f056e8e50d"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\挂点.stck",
+      "sha256": "3a06b4ac4278954bf80bd42da9c45ba757d30e1b6d1c907eab853e44792ff6ff"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\普通攻击1.stck",
+      "sha256": "90c59a09950ea895b4342d701eb4eadd677f3836bd25c7f53686982ac80ab972"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\普通攻击2.stck",
+      "sha256": "3a06615bceb329e49316a9a54303226d86677badffdf67ddcc6d5f3c72973a53"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\死亡.stck",
+      "sha256": "d5aa3a0ed8bb19fdac3f576c3dba0a85a1d23128aa0017388a82f4d01a45d246"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\游泳前进.stck",
+      "sha256": "22da3cc5ca2f53f6dd39c2489856dc27e6a4baddb39b5fcba922c4db4c1ae120"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\游泳站立.stck",
+      "sha256": "f61680b9fdb9377b0b2c117660a9b59a24bec23e070fb299894b24e9d1ed0de2"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\站立.stck",
+      "sha256": "a1c67ed76ec483fae77c82f315c0965e4ba316b7d14025bda6fd9ae2a2276791"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\tcks_宠物_企鹅\\行走.stck",
+      "sha256": "2138b3a5610d49a59bc3bd7545b1921498d59dd3fda029e22382626f49f85d65"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\textures\\宠物_企鹅.dds",
+      "sha256": "3b00dd63c534b4aefb48b661831dd036ae81b5b2ac04be08c7f9a2d029f9379b"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\宠物_企鹅.bon",
+      "sha256": "d9b1831c8f27d628eaa643b4f31793880ae2b1f3b0f4892369b262da3c545547"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\宠物_企鹅.ecm",
+      "sha256": "60899723a9850b54afa479b3d375ae822f4d342895953e5dbcffdfc7f710de88"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\宠物_企鹅.ski",
+      "sha256": "e8824b0b06776ef77c28f7dedcb3d5286a247c3a7f69d92af299821a7215cd3e"
+    },
+    {
+      "путь": "npcs\\宠物\\宠物_企鹅\\宠物_企鹅.smd",
+      "sha256": "3277efc548678c47be73412000f549fe6251475ec403a26ac6aeb30930edefed"
+    }
+  ],
+  "проект": "."
+}

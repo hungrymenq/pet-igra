@@ -1,0 +1,331 @@
+{
+  "действий_со_звуком": 12,
+  "событий_звука_в_ecm": 71,
+  "составных_действий": 75,
+  "файлов_ресурсов": 34,
+  "звуки": [
+    {
+      "действие": "休闲",
+      "название": "Отдых / AFK",
+      "нарезка": "плевок_для_отдыха",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_afk.wav",
+      "задержка_мс": 250,
+      "громкость": 0.8,
+      "длительность_исходника": 1.35,
+      "длительность_wav": 1.35,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "休闲1",
+      "название": "Отдых 1 / AFK",
+      "нарезка": "смех_вариант_1",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_afk_alt.wav",
+      "задержка_мс": 200,
+      "громкость": 0.8,
+      "длительность_исходника": 1.4,
+      "длительность_wav": 1.4,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "受伤1",
+      "название": "Получение урона 1",
+      "нарезка": "плевок_для_отдыха",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_hurt.wav",
+      "задержка_мс": 0,
+      "громкость": 0.35,
+      "длительность_исходника": 1.35,
+      "длительность_wav": 0.5333333333333333,
+      "обрезан_по_концу_действия": true
+    },
+    {
+      "действие": "受伤2",
+      "название": "Получение урона 2",
+      "нарезка": "смех_короткий",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_hurt_alt.wav",
+      "задержка_мс": 0,
+      "громкость": 0.25,
+      "длительность_исходника": 0.7,
+      "длительность_wav": 0.5333333333333333,
+      "обрезан_по_концу_действия": true
+    },
+    {
+      "действие": "奔跑",
+      "название": "Бег",
+      "нарезка": "смех_доп_1_05",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_run.wav",
+      "задержка_мс": 0,
+      "громкость": 0.8,
+      "длительность_исходника": 1.18,
+      "длительность_wav": 2.020408163265306,
+      "обрезан_по_концу_действия": false,
+      "цикл": true,
+      "один_запуск_на_действие": true,
+      "темп": 0.7,
+      "стык_секунд": 0,
+      "исходник": "jeff-laugh.mp3",
+      "срез_начало": 4.13,
+      "срез_конец": 5.55,
+      "склейки": 0
+    },
+    {
+      "действие": "技能攻击1",
+      "название": "Навык 1",
+      "нарезка": "смех_доп_1_02",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_skill_1.wav",
+      "задержка_мс": 250,
+      "громкость": 0.3,
+      "длительность_исходника": 0.74,
+      "длительность_wav": 0.74,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "技能攻击2",
+      "название": "Баф / навык 2",
+      "нарезка": "плевок_короткий",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_buff.wav",
+      "задержка_мс": 250,
+      "громкость": 0.8,
+      "длительность_исходника": 0.7,
+      "длительность_wav": 0.7,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "技能攻击3",
+      "название": "Навык 3",
+      "нарезка": "плевок_для_навыка",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_skill_3.wav",
+      "задержка_мс": 100,
+      "громкость": 0.8,
+      "длительность_исходника": 1.45,
+      "длительность_wav": 1.45,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "普通攻击1",
+      "название": "Атака 1",
+      "нарезка": "плевок_короткий",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_attack_1.wav",
+      "задержка_мс": 200,
+      "громкость": 0.8,
+      "длительность_исходника": 0.7,
+      "длительность_wav": 0.7,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "普通攻击2",
+      "название": "Атака 2",
+      "нарезка": "смех_доп_1_01",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_attack_2.wav",
+      "задержка_мс": 200,
+      "громкость": 0.8,
+      "длительность_исходника": 0.44,
+      "длительность_wav": 0.44,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "死亡",
+      "название": "Смерть",
+      "нарезка": "смех_короткий",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_death.wav",
+      "задержка_мс": 0,
+      "громкость": 0.8,
+      "длительность_исходника": 0.7,
+      "длительность_wav": 0.7,
+      "обрезан_по_концу_действия": false
+    },
+    {
+      "действие": "行走",
+      "название": "Ходьба",
+      "нарезка": "смех_доп_1_05",
+      "путь_в_sfx": "Monster\\pets\\jeff_fw\\jeff_walk.wav",
+      "задержка_мс": 0,
+      "громкость": 0.8,
+      "длительность_исходника": 1.18,
+      "длительность_wav": 2.020408163265306,
+      "обрезан_по_концу_действия": false,
+      "цикл": true,
+      "один_запуск_на_действие": true,
+      "темп": 0.7,
+      "стык_секунд": 0,
+      "исходник": "jeff-laugh.mp3",
+      "срез_начало": 4.13,
+      "срез_конец": 5.55,
+      "склейки": 0
+    }
+  ],
+  "файлы": [
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\jeff_fw.bon",
+      "sha256": "d9b1831c8f27d628eaa643b4f31793880ae2b1f3b0f4892369b262da3c545547"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\jeff_fw.ecm",
+      "sha256": "b35ac9011642a9fbd8d002f4bb212ee718eafe5bf94cce1a54371167d14e56fd"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\jeff_fw.ski",
+      "sha256": "904594e47fbf077686251f756603d66abdd5bc14cf911a432e5eb64dcf684880"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\jeff_fw.smd",
+      "sha256": "6f753e022b0e8a9daaaf1b9db3e9a038ca4cc5f06a9a3b221726543a8f37e8ac"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\休闲.stck",
+      "sha256": "2fd2c7334396bf49b4f0437f91ecf09753528ee9a642cb99fd5c9330a8de10e3"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\休闲1.stck",
+      "sha256": "2fd2c7334396bf49b4f0437f91ecf09753528ee9a642cb99fd5c9330a8de10e3"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\受伤1.stck",
+      "sha256": "e23ec9719a09f45f33e9cc5cf760a573d208843ae7ed89c23a6de52b5ebc4a28"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\受伤2.stck",
+      "sha256": "fcc0489887846a7c50f1e0dad04558a6fd579bd5a29c7fb99aa43e7aa5ecab50"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\奔跑.stck",
+      "sha256": "6bc8f20dbad395548ca233b8ccfbd92c0a3d6853b7f1b06c89228b6d510685a5"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\战斗站立.stck",
+      "sha256": "b1c8a2696c04698d8c4810676605cfaeee52cb45810b8c11dcf5dfb4f9f350c5"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\技能攻击1.stck",
+      "sha256": "8b51dcbd4c04a7ca0166144911edecb546924b7d889cf3660da622c23f1f3b6c"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\技能攻击2.stck",
+      "sha256": "5497a58c1cea0f881b3ecfae9e98bebd5c63d48286c3fd08be9ea73e6fc5ecfe"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\技能攻击3.stck",
+      "sha256": "7f54cacb981f13edd351a3c9be793e6f15dfcf390dee6e95dd11d7f056e8e50d"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\挂点.stck",
+      "sha256": "3a06b4ac4278954bf80bd42da9c45ba757d30e1b6d1c907eab853e44792ff6ff"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\普通攻击1.stck",
+      "sha256": "90c59a09950ea895b4342d701eb4eadd677f3836bd25c7f53686982ac80ab972"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\普通攻击2.stck",
+      "sha256": "3a06615bceb329e49316a9a54303226d86677badffdf67ddcc6d5f3c72973a53"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\死亡.stck",
+      "sha256": "d5aa3a0ed8bb19fdac3f576c3dba0a85a1d23128aa0017388a82f4d01a45d246"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\游泳前进.stck",
+      "sha256": "22da3cc5ca2f53f6dd39c2489856dc27e6a4baddb39b5fcba922c4db4c1ae120"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\游泳站立.stck",
+      "sha256": "f61680b9fdb9377b0b2c117660a9b59a24bec23e070fb299894b24e9d1ed0de2"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\站立.stck",
+      "sha256": "a1c67ed76ec483fae77c82f315c0965e4ba316b7d14025bda6fd9ae2a2276791"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\tcks_jeff_fw\\行走.stck",
+      "sha256": "2138b3a5610d49a59bc3bd7545b1921498d59dd3fda029e22382626f49f85d65"
+    },
+    {
+      "архив": "models.pck.files",
+      "путь": "npcs\\宠物\\jeff_fw\\textures\\jeff_fw.dds",
+      "sha256": "3b00dd63c534b4aefb48b661831dd036ae81b5b2ac04be08c7f9a2d029f9379b"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_afk.wav",
+      "sha256": "e5d1056e12832056ecd78361cde95a4c2ae5ed272a0d618db6af2a366b22308f"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_afk_alt.wav",
+      "sha256": "2e6caae19d6ae57809c2854a8ba2988abe44cf52263a63aade1e9fd72d3acde0"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_attack_1.wav",
+      "sha256": "55f3a510a750b89ae1e33a99b676c8c8cc74f16ac891b5fceea11913271b81de"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_attack_2.wav",
+      "sha256": "55e00bc60ecba7a226abc0758e2576d4f6479f90d80fc8eb586333e086684d62"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_buff.wav",
+      "sha256": "55f3a510a750b89ae1e33a99b676c8c8cc74f16ac891b5fceea11913271b81de"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_death.wav",
+      "sha256": "ec40596114d56b3166a2bc0846fe34e44199867834242f947e5870023d1a226e"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_hurt.wav",
+      "sha256": "6501ae9a40532ae5b08d389fd72220d143d75ecc203cb3c795d65ecfee4e1fec"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_hurt_alt.wav",
+      "sha256": "d2bc4d174be8daf11baa2901043702b1b0ee2b2eda5e47e91e58c5a63848dc08"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_run.wav",
+      "sha256": "0a0270318a6c969a0d07bc9d64939edb2d9391187ffa5153fe968c804c5db4ca"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_skill_1.wav",
+      "sha256": "60a62f05f59c96f044aa00141b28f97156df3bdd3494bd81bc6eb334daa52e06"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_skill_3.wav",
+      "sha256": "29c3d0de2d03f739853d60660532ddeebb99016d3d86fb0db040ef8a1064386d"
+    },
+    {
+      "архив": "sfx.pck.files",
+      "путь": "Monster\\pets\\jeff_fw\\jeff_walk.wav",
+      "sha256": "0a0270318a6c969a0d07bc9d64939edb2d9391187ffa5153fe968c804c5db4ca"
+    }
+  ],
+  "исходный_комплект_не_изменён": true,
+  "проверка_в_игре": "Предстоит проверить непрерывность звука и остановку при атаке и бафе",
+  "версия_озвучки": 8
+}

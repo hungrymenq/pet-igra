@@ -1,0 +1,8 @@
+*.ski binary
+*.bon binary
+*.smd binary
+*.stck binary
+*.dds binary
+*.wav binary
+*.png binary
+*.ecm -text
